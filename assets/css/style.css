@@ -57,7 +57,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #EC1C24;
 }
 @media (max-width: 768px) {
   .section-header p {
@@ -71,7 +71,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #EC1C24;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -172,7 +172,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: #EC1C24;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -286,7 +286,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #EC1C24;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -337,7 +337,7 @@ section {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #EC1C24;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #4154f1;
@@ -386,7 +386,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  color: #012970;
+  color: #EC1C24;
 }
 .hero h2 {
   color: #444444;
@@ -472,7 +472,7 @@ section {
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: #EC1C24;
 }
 .about p {
   margin: 15px 0 30px 0;
@@ -519,7 +519,7 @@ section {
 }
 .values .box h3 {
   font-size: 24px;
-  color: #012970;
+  color: #EC1C24;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -574,7 +574,7 @@ section {
 }
 .features .feature-box h3 {
   font-size: 18px;
-  color: #012970;
+  color: #EC1C24;
   font-weight: 700;
   margin: 0;
 }
@@ -595,7 +595,7 @@ section {
   margin-top: 120px;
 }
 .features .feture-tabs h3 {
-  color: #012970;
+  color: #EC1C24;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -613,7 +613,7 @@ section {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
-  color: #012970;
+  color: #EC1C24;
   padding: 12px 0;
   margin-right: 25px;
   margin-bottom: -2px;
@@ -627,7 +627,7 @@ section {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: #012970;
+  color: #EC1C24;
 }
 .features .feture-tabs .tab-content i {
   font-size: 24px;
@@ -639,7 +639,7 @@ section {
   margin-top: 120px;
 }
 .features .feature-icons h3 {
-  color: #012970;
+  color: #EC1C24;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
@@ -657,7 +657,7 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #012970;
+  color: #EC1C24;
 }
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
@@ -1004,11 +1004,11 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: #EC1C24;
   font-weight: 700;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: #EC1C24;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1250,7 +1250,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #012970;
+  color: #EC1C24;
 }
 .team .member .member-info span {
   display: block;
@@ -1330,7 +1330,7 @@ section {
 }
 .recent-blog-posts .post-box .post-title {
   font-size: 24px;
-  color: #012970;
+  color: #EC1C24;
   font-weight: 700;
   margin-bottom: 18px;
   position: relative;
@@ -1370,7 +1370,7 @@ section {
 }
 .contact .info-box h3 {
   font-size: 20px;
-  color: #012970;
+  color: #EC1C24;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
@@ -1488,7 +1488,7 @@ section {
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
-  color: #012970;
+  color: #EC1C24;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
@@ -1567,7 +1567,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #012970;
+  background-color: #EC1C24;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1632,7 +1632,7 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: #012970;
+  color: #EC1C24;
 }
 .blog .blog-author .social-links {
   margin: 0 10px 10px 0;
@@ -1675,7 +1675,7 @@ section {
 }
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #012970;
+  color: #EC1C24;
 }
 .blog .blog-comments .comment h5 .reply i {
   font-size: 20px;
@@ -1726,7 +1726,7 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #012970;
+  background-color: #EC1C24;
 }
 .blog .blog-comments .reply-form .btn-primary:hover {
   background-color: #013289;
@@ -1745,7 +1745,7 @@ section {
   transition: 0.3s;
 }
 .blog .blog-pagination li a {
-  color: #012970;
+  color: #EC1C24;
   padding: 7px 16px;
   display: flex;
   align-items: center;
@@ -1767,7 +1767,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #012970;
+  color: #EC1C24;
   position: relative;
 }
 .blog .sidebar .sidebar-item {
@@ -1815,7 +1815,7 @@ section {
   padding-top: 10px;
 }
 .blog .sidebar .categories ul a {
-  color: #012970;
+  color: #EC1C24;
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
@@ -1839,7 +1839,7 @@ section {
   font-weight: bold;
 }
 .blog .sidebar .recent-posts h4 a {
-  color: #012970;
+  color: #EC1C24;
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
@@ -1901,7 +1901,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  color: #012970;
+  color: #EC1C24;
 }
 .footer .footer-newsletter form {
   margin-top: 20px;
@@ -1961,7 +1961,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: #EC1C24;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -1980,12 +1980,12 @@ section {
   transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover {
-  color: #012970;
+  color: #EC1C24;
 }
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #012970;
+  color: #EC1C24;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2027,11 +2027,11 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #012970;
+  color: #EC1C24;
 }
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #012970;
+  color: #EC1C24;
 }
