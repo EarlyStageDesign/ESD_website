@@ -452,7 +452,7 @@ section {
     width: 100%;
   }
 }
-
+/* 
 .fadein-1st {
   animation: fadeIn ease-in-out 3s;
   -webkit-animation: fadeIn ease 3s;
@@ -504,7 +504,7 @@ section {
   50% {
     opacity: 1;
   }
-}
+} */
 
 /* .fadeOut-1st {
   animation: fadeOut ease 10s;
