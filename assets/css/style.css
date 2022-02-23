@@ -28,7 +28,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -48,7 +48,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #111111;
   text-transform: uppercase;
 }
 .section-header p {
@@ -120,7 +120,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #EC1C24; 
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -173,7 +173,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #EC1C24;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 3px;
 }
 
@@ -201,10 +201,10 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-weight: 700;
-  color: #013289;
+  font-weight: 300;
+  color: #111111;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -214,7 +214,7 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #4154f1;
+  color:#EC1C24;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #4154f1;
@@ -400,11 +400,11 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #EC1C24;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -453,6 +453,118 @@ section {
   }
 }
 
+.fadein-1st {
+  animation: fadeIn ease-in-out 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* .fadeOut-1st {
+  animation: fadeOut ease 10s;
+  animation-delay: 10s;
+  -webkit-animation: fadeOut ease 10s;
+  -webkit-animation-delay: 10s;
+  -moz-animation: fadeOut ease 10s;
+  -moz-animation-delay: 10s;
+  -o-animation: fadeOut ease 10s;
+  -o-animation-delay: 10s;
+  -ms-animation: fadeOut ease 10s;
+  -ms-animation-delay: 10s;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+} */
+
+
 /*--------------------------------------------------------------
 # Index Page
 --------------------------------------------------------------*/
@@ -466,7 +578,7 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #111111;
   text-transform: uppercase;
 }
 .about h2 {
@@ -484,11 +596,11 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #EC1C24;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -559,7 +671,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -858,7 +970,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #4154f1;
@@ -1962,14 +2074,14 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #EC1C24;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 3px;
 }
 .footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .footer .footer-top .social-links a {
   font-size: 20px;
@@ -2027,11 +2139,11 @@ section {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #EC1C24;
+  color: #C7C7C7;
 }
 .footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #EC1C24;
+  color: #c7c7c7;
 }
