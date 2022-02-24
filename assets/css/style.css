@@ -802,6 +802,7 @@ section {
   display: inline-block;
   line-height: 0;
   transition: 0.3s;
+  animation-play-state: static;
 }
 .services .service-box h3 {
   color: #444444;

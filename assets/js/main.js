@@ -287,3 +287,16 @@
   });
 
 })();
+
+
+/**Run gif on hover**/
+$(function() {
+  $("#jstest1").hover(
+      function() {
+          $(this).attr("src", "assets/gif/Modules/Schattenwurf.gif");
+      },  
+      function() {
+          $(this).attr("src", "assets/gif/Modules/Schattenwurf.png");
+      }                         
+  );                  
+});

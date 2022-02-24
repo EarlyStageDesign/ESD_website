@@ -31,6 +31,8 @@
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/aff7311d80.js" crossorigin="anonymous"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   <!-- =======================================================
   * Template Name: FlexStart - v1.9.0
   * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
@@ -142,13 +144,15 @@
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-box blue">
-              <img src="assets/gif/Modules/Schattenwurf.gif" class="img-fluid icon" alt="">
+            <div class="service-box blue run-on-hover">
+              <img id="jstest1" src="assets/gif/Modules/Schattenwurf.png" class="img-fluid icon" alt="">
               <h3>Schattenwurf</h3>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
               <!-- <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div>
+
+
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-box orange">
@@ -383,7 +387,11 @@
               <div class="member-info">
                 <h4>Manuel Frey</h4>
                 <span>Head of Early Stage Design</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                <span>+41 31 917 20 90</span>
+                <span>manuel.frey@gruner.ch</span>
+                <p>Gruner Roschi AG</p>
+                <p>Sägerstrasse 73</p>
+                <p>CH-3098 Köniz</p>
               </div>
             </div>
           </div>
@@ -640,6 +648,20 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+ 
+  <!-- <script>
+    $(function() {
+        $("#jstest1").hover(
+            function() {
+                $(this).attr("src", "assets/gif/Modules/Schattenwurf.gif");
+            },  
+            function() {
+                $(this).attr("src", "assets/gif/Modules/Schattenwurf.png");
+            }                         
+        );                  
+    });
+  </script> -->
 
 </body>
 
