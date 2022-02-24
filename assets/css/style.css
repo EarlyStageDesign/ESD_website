@@ -821,17 +821,17 @@ section {
   font-size: 18px;
 }
 .services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
+  border-bottom: 3px solid #91CED4;
 }
 .services .service-box.blue .icon {
-  color: #2db6fa;
-  background: #dbf3fe;
+  color: #91CED4;
+  background: #f9f9f9;
 }
 .services .service-box.blue .read-more {
-  color: #2db6fa;
+  color: #91CED4;
 }
 .services .service-box.blue:hover {
-  background: #2db6fa;
+  background: #91CED4;
 }
 .services .service-box.orange {
   border-bottom: 3px solid #f68c09;
