@@ -834,69 +834,69 @@ section {
   background: #91CED4;
 }
 .services .service-box.orange {
-  border-bottom: 3px solid #f68c09;
+  border-bottom: 3px solid #ED7550;
 }
 .services .service-box.orange .icon {
-  color: #f68c09;
-  background: #fde3c4;
+  color: #ED7550;
+  background: #f9f9f9;
 }
 .services .service-box.orange .read-more {
-  color: #f68c09;
+  color: #ED7550;
 }
 .services .service-box.orange:hover {
-  background: #f68c09;
+  background: #ED7550;
 }
 .services .service-box.green {
-  border-bottom: 3px solid #08da4e;
+  border-bottom: 3px solid #E2E9A0;
 }
 .services .service-box.green .icon {
-  color: #08da4e;
-  background: #cffddf;
+  color: #E2E9A0;
+  background: #f9f9f9;
 }
 .services .service-box.green .read-more {
-  color: #08da4e;
+  color: #E2E9A0;
 }
 .services .service-box.green:hover {
-  background: #08da4e;
+  background: #E2E9A0;
 }
 .services .service-box.red {
-  border-bottom: 3px solid #e9222c;
+  border-bottom: 3px solid #EC1C24;
 }
 .services .service-box.red .icon {
-  color: #e9222c;
-  background: #fef7f8;
+  color: #EC1C24;
+  background: #f9f9f9;
 }
 .services .service-box.red .read-more {
-  color: #e9222c;
+  color: #EC1C24;
 }
 .services .service-box.red:hover {
-  background: #e9222c;
+  background: #EC1C24;
 }
-.services .service-box.purple {
-  border-bottom: 3px solid #b50edf;
+.services .service-box.yellow {
+  border-bottom: 3px solid #FCC800;
 }
-.services .service-box.purple .icon {
-  color: #b50edf;
-  background: #f8e4fd;
+.services .service-box.yellow .icon {
+  color: #FCC800;
+  background: #f9f9f9;
 }
-.services .service-box.purple .read-more {
-  color: #b50edf;
+.services .service-box.yellow .read-more {
+  color: #FCC800;
 }
-.services .service-box.purple:hover {
-  background: #b50edf;
+.services .service-box.yellow:hover {
+  background: #FCC800;
 }
-.services .service-box.pink {
-  border-bottom: 3px solid #f51f9c;
+.services .service-box.darkblue {
+  border-bottom: 3px solid #24587B;
 }
-.services .service-box.pink .icon {
-  color: #f51f9c;
-  background: #feecf7;
+.services .service-box.darkblue .icon {
+  color: #24587B;
+  background: #f9f9f9;
 }
-.services .service-box.pink .read-more {
-  color: #f51f9c;
+.services .service-box.darkblue .read-more {
+  color: #24587B;
 }
-.services .service-box.pink:hover {
-  background: #f51f9c;
+.services .service-box.darkblue:hover {
+  background: #24587B;
 }
 .services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
   color: #fff;
