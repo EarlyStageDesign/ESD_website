@@ -807,6 +807,7 @@ section {
 .services .service-box h3 {
   color: #444444;
   font-weight: 700;
+  font-size: 1.15rem;
 }
 .services .service-box .read-more {
   display: inline-flex;
