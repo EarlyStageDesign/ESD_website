@@ -292,7 +292,7 @@
 /**Run gif on hover*/
 
 /**Volume */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#volume").attr("src", "assets/gif/Modules/volume.gif");
@@ -302,9 +302,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Schattenwurf */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#schattenwurf").attr("src", "assets/gif/Modules/schattenwurf.gif");
@@ -314,9 +315,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Fläche */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#fläche").attr("src", "assets/gif/Modules/fläche.gif");
@@ -326,9 +328,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Costs */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
         $("#costs").attr("src", "assets/gif/Modules/costs.gif");
@@ -338,9 +341,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Erstellung */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#erstellung").attr("src", "assets/gif/Modules/erstellung.gif");
@@ -350,9 +354,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Operational */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#operational").attr("src", "assets/gif/Modules/operational.gif");
@@ -362,9 +367,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Labels */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#labels").attr("src", "assets/gif/Modules/labels.gif");
@@ -374,9 +380,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Report */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#report").attr("src", "assets/gif/Modules/report.gif");
@@ -386,9 +393,10 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Neues */
-$(function() {
+/**$(function() {
   $(".service-box").hover(
       function() {
           $("#neues").attr("src", "assets/gif/Modules/neues.gif");
@@ -398,6 +406,7 @@ $(function() {
       }                         
   );                  
 });
+ */
 
 /**Original
 $(function() {
