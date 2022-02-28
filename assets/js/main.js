@@ -289,9 +289,119 @@
 })();
 
 
-/**Run gif on hover**/
+/**Run gif on hover*/
+
+/**Volume */
 $(function() {
-  $("#jstest1").hover(
+  $(".service-box").hover(
+      function() {
+          $("#volume").attr("src", "assets/gif/Modules/volume.gif");
+      },  
+      function() {
+          $("#volume").attr("src", "assets/gif/Modules/volume.png");
+      }                         
+  );                  
+});
+
+/**Schattenwurf */
+$(function() {
+  $(".service-box").hover(
+      function() {
+          $("#schattenwurf").attr("src", "assets/gif/Modules/schattenwurf.gif");
+      },  
+      function() {
+          $("#schattenwurf").attr("src", "assets/gif/Modules/schattenwurf.png");
+      }                         
+  );                  
+});
+
+/**Fläche */
+$(function() {
+  $(".service-box").hover(
+      function() {
+          $("#fläche").attr("src", "assets/gif/Modules/fläche.gif");
+      },  
+      function() {
+          $("#fläche").attr("src", "assets/gif/Modules/fläche.png");
+      }                         
+  );                  
+});
+
+/**Costs */
+$(function() {
+  $(".service-box").hover(
+      function() {
+        $("#costs").attr("src", "assets/gif/Modules/costs.gif");
+      },  
+      function() {
+        $("#costs").attr("src", "assets/gif/Modules/costs.png");
+      }                         
+  );                  
+});
+
+/**Erstellung */
+$(function() {
+  $(".service-box").hover(
+      function() {
+          $("#erstellung").attr("src", "assets/gif/Modules/erstellung.gif");
+      },  
+      function() {
+          $("#erstellung").attr("src", "assets/gif/Modules/erstellung.png");
+      }                         
+  );                  
+});
+
+/**Operational */
+$(function() {
+  $(".service-box").hover(
+      function() {
+          $("#operational").attr("src", "assets/gif/Modules/operational.gif");
+      },  
+      function() {
+          $("#operational").attr("src", "assets/gif/Modules/operational.png");
+      }                         
+  );                  
+});
+
+/**Labels */
+$(function() {
+  $(".service-box").hover(
+      function() {
+          $("#labels").attr("src", "assets/gif/Modules/labels.gif");
+      },  
+      function() {
+          $("#labels").attr("src", "assets/gif/Modules/labels.png");
+      }                         
+  );                  
+});
+
+/**Report */
+$(function() {
+  $(".service-box").hover(
+      function() {
+          $("#report").attr("src", "assets/gif/Modules/report.gif");
+      },  
+      function() {
+          $("#report").attr("src", "assets/gif/Modules/report.png");
+      }                         
+  );                  
+});
+
+/**Neues */
+$(function() {
+  $(".service-box").hover(
+      function() {
+          $("#neues").attr("src", "assets/gif/Modules/neues.gif");
+      },  
+      function() {
+          $("#neues").attr("src", "assets/gif/Modules/neues.png");
+      }                         
+  );                  
+});
+
+/**Original
+$(function() {
+  $("#schattenwurf").hover(
       function() {
           $(this).attr("src", "assets/gif/Modules/Schattenwurf.gif");
       },  
@@ -299,4 +409,5 @@ $(function() {
           $(this).attr("src", "assets/gif/Modules/Schattenwurf.png");
       }                         
   );                  
-});
+}); 
+ */
