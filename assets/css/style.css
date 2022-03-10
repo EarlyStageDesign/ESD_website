@@ -1070,6 +1070,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(255, 255, 255, 0.75);
+  box-shadow:2px 2px 4px #aaaaaa;
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -1146,7 +1147,7 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: #91CED4;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1161,7 +1162,7 @@ section {
   line-height: 0;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #ED7550;
 }
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
