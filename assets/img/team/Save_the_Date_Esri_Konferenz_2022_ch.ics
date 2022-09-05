@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID: Esri Deutschland GmbH
+VERSION:2.0
+
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+
+BEGIN:VEVENT
+ORGANIZER;CN=Esri Konferenz 2022:mailto:esrikonferenz@esri.de
+
+DESCRIPTION:Die aktuellen Informationen zum Programm\, den Speakern und der
+  Registrierung finden Sie auf unserer Webseite: https://bit.ly/3JABcIM\n\nWir freuen uns auf
+  Sie\nIhr Esri Konferenz Team\n\n\n
+
+UID:esrikonferenz@esri.de
+
+SUMMARY:Esri Konferenz 2022
+
+DTSTART:20221005T0830000Z
+DTEND:20221005T2000000Z
+DTSTAMP:20220325T144942Z
+
+LOCATION:Zürich
+
+END:VEVENT
+END:VCALENDAR
