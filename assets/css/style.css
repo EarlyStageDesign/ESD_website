@@ -18,12 +18,14 @@ body {
 }
 
 a {
-  color: #4154f1;
+/*   color: #4154f1; */
+  color: rgba(236, 28, 36, 0.6);
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+/*   color: #717ff5; */
+  color: rgba(236, 28, 36, 0.8);
   text-decoration: none;
 }
 
@@ -1344,6 +1346,7 @@ section {
   background-size: contain;
   z-index: 1;
 }
+
 .team .member .social {
   position: absolute;
   right: -100%;
