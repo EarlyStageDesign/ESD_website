@@ -18,12 +18,14 @@ body {
 }
 
 a {
-  color: #4154f1;
+/*   color: #4154f1; */
+  color: rgba(236, 28, 36, 0.6);
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+/*   color: #717ff5; */
+  color: rgba(236, 28, 36, 0.8);
   text-decoration: none;
 }
 
@@ -71,7 +73,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #EC1C24;
+  background: #c7c7c7;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -1203,10 +1205,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #EC1C24;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #EC1C24;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -1344,6 +1346,7 @@ section {
   background-size: contain;
   z-index: 1;
 }
+
 .team .member .social {
   position: absolute;
   right: -100%;
