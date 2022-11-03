@@ -1368,6 +1368,13 @@ section {
 .team .member .social a:hover {
   color: rgba(236, 28, 36, 0.8);
 }
+.team .member-info a {
+  transition: color 0.3s;
+  color: rgba(1, 41, 112, 0.5);
+}
+.team .member-info a:hover {
+  color: #0a66c2;
+}
 .team .member .social i {
   font-size: 18px;
 }
