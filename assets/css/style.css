@@ -420,7 +420,7 @@ section {
   transform: translateX(5px);
 }
 .hero .hero-img {
-  text-align: right;
+  text-align: left;
 }
 @media (min-width: 1024px) {
   .hero {
