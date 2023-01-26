@@ -219,7 +219,7 @@ section {
   color:#EC1C24;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #EC1C24;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -227,7 +227,7 @@ section {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: #EC1C24;
 }
 .navbar .dropdown ul {
   display: block;
@@ -246,6 +246,7 @@ section {
 }
 .navbar .dropdown ul li {
   min-width: 200px;
+
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
@@ -257,7 +258,7 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #EC1C24;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
