@@ -1,24 +1,47 @@
-const locale = "en";
+const defaultLocale = "de"
 
-const translations = {
-    "en": {
-        "li-feature-geogen": "Geometry Generation",
-        "li-feature-shadowcast": "Shadow Diagram",
-        "li-feature-areas": "Analysis of Areas",
-        "li-feature-costs": "Cost Calculation",
-        "li-feature-construction": "Energy and CO2 Construction",
-        "li-feature-operational": "Energy and CO2 Operation",
-        "li-feature-certifications": "ESG, SNBS and Minergie",
-        "li-feature-daylight": "Daylight and Overheating",
-        "li-feature-pv": "Solar Radiation and PV Simulation",
-        "li-feature-noise": "Noise Evaluation",
-        "li-feature-report": "Automatic Report",
-    },
-};
+let locale;
 
+let translations = {};
 
 document.addEventListener("DOMContentLoaded", () => {
+    setLocale(defaultLocale);
+    bindLocaleSwitcher(defaultLocale);
+});
+
+async function setLocale(newLocale) {
+    if (newLocale === locale) return;
+    const newTranslations = 
+        await fetchTranslationsFor(newLocale);
+    locale = newLocale;
+    translations = newTranslations;
+    translatePage();
+}
+
+async function fetchTranslationsFor(newLocale) {
+    const response = await fetch(`/assets/lang/${newLocale}.json`);
+    return await response.json();
+}
+
+function translatePage() {
     document
     .querySelectorAll("[data-i18n-key]")
     .forEach(translateElement);
-});
+}
+
+function translateElement(element) {
+    const key = element.getAttribute("data-i18n-key");
+    const translation = translations[key];
+    element.innerText = translation;
+}
+
+function bindLocaleSwitcher(initialValue) {
+    const switcher = 
+        document.querySelector("[data-i18n-switcher]");
+    switcher.value = initialValue;
+    switcher.onchange = (e) => {
+        setLocale(e.target.value);
+    };
+}
+
+//Explanation in here: https://phrase.com/blog/posts/step-step-guide-javascript-localization/

@@ -261,6 +261,7 @@ section {
   color: #EC1C24;
 }
 .navbar .dropdown:hover > ul {
+  background-color: rgba(245, 245, 245, 0.95);
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -276,6 +277,34 @@ section {
   left: 100%;
   visibility: visible;
 }
+
+.form-select {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  color: #111111;
+}
+
+.form-select:hover {
+  box-shadow: 0 0 0 0.3rem rgba(255, 93, 93, 0.1);
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.1rem rgba(255, 93, 93, 0.5);
+}
+
+
+.form-select:hover > option {
+  visibility: visible;
+}
+
+.form-select:disabled {
+  background-color: transparent;
+}
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
