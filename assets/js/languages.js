@@ -1,12 +1,15 @@
-const defaultLocale = "de"
+const defaultLocale = "de";
+const supportedLocales = ["de", "fr", "en"];
 
 let locale;
 
 let translations = {};
 
 document.addEventListener("DOMContentLoaded", () => {
-    setLocale(defaultLocale);
-    bindLocaleSwitcher(defaultLocale);
+    const initialLocale =
+        supportedOrDefault(browserLocales(true));
+    setLocale(initialLocale);
+    bindLocaleSwitcher(initialLocale);
 });
 
 async function setLocale(newLocale) {
@@ -42,6 +45,26 @@ function bindLocaleSwitcher(initialValue) {
     switcher.onchange = (e) => {
         setLocale(e.target.value);
     };
+}
+
+function isSupported(locale) {
+    return supportedLocales.indexOf(locale) > -1;
+}
+
+function supportedOrDefault(locales) {
+    return locales.find(isSupported) || defaultLocale;
+}
+
+//function savePreference(newLocale) {
+//    return localStorage.setItem({newLocale})
+//}
+
+//Retrieve user-preferred locales from the browser
+
+function browserLocales(languageCodeOnly = false) {
+    return navigator.languages.map((locale) => 
+        languageCodeOnly ? locale.split("-")[0] : locale, 
+    );
 }
 
 //Explanation in here: https://phrase.com/blog/posts/step-step-guide-javascript-localization/
