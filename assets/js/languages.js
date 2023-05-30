@@ -24,6 +24,7 @@ async function setLocale(newLocale) {
 async function fetchTranslationsFor(newLocale) {
     const response = await fetch(`/assets/lang/${newLocale}.json`);
     return await response.json();
+    
 }
 
 function translatePage() {
@@ -37,6 +38,26 @@ function translateElement(element) {
     const translation = translations[key];
     element.innerText = translation;
 }
+
+//function translateImages(img) {
+//    const key = document.getElementsByClassName("translate-img");
+//}
+
+//console.log(`language change event detected ${locale}`);
+
+//function translateImages() {
+//    document
+//    .querySelector("[translate-img]").
+//    forEach(changeTranslatedImg);
+//}
+
+//function changeTranslatedImg (locale) {
+//    const translatedProcessImg = document.querySelector("[translate-img]").attributes("src", `/assets/img/ESD_process_${locale}.png`);
+//}
+
+//function changeTranslatedImg (element) {
+//    const translatedProcessImg =  element.getAttribute("translate-img").src(`/assets/img/ESD_process_${locale}.png`);
+//}
 
 function bindLocaleSwitcher(initialValue) {
     const switcher = 
