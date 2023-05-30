@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Early Stage Design</title>
+    <meta content="" name="description">
+  
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/aff7311d80.js" crossorigin="anonymous"></script>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  
+  <!-- Global site tag (gtag.js) - Google Analytics PERSONAL ANALYTICS CNA -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-73H9949JD3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-73H9949JD3');
+  </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics GRU ANALYTICS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SD14ZVFRJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+  
+      gtag('config', 'G-9SD14ZVFRJ');
+    </script>
+  
+  </head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="https://gruner.ch" class="logo d-flex align-items-center" target="_blank">
+        <img src="assets/svg/gruner-logo.svg" alt="">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
+          <!--  <li><a class="nav-link scrollto" href="#about">ESD</a></li> -->
+          <li class="dropdown"><a data-i18n-key="features" href="#services"><span>Features</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a data-i18n-key="li-feature-geogen" href="features_volumenkörpererzeugung.html">Volumenkörpererzeugung</a></li>
+              <li><a data-i18n-key="li-feature-shadowcast" href="features_schattenwurf.html">Schattenwurf</a></li>
+              <li><a data-i18n-key="li-feature-areas" href="features_flächenberechnungen.html">Flächenberechnungen</a></li>
+              <li><a data-i18n-key="li-feature-costs" href="features_kostenermittlung.html">Kostenermittlung</a></li>
+              <li><a data-i18n-key="li-feature-construction" href="features_energiebedarf und CO2 erstellung.html">Energiebedarf und CO2 Erstellung</a></li>
+              <li><a data-i18n-key="li-feature-operational" href="features_energiebedarf und CO2 betrieb.html">Energiebedarf und CO2 Betrieb</a></li>
+              <li><a data-i18n-key="li-feature-certifications" href="features_ESG, SNBS und Minergie.html">ESG, SNBS und Minergie</a></li>
+              <li><a data-i18n-key="li-feature-daylight" href="features_tageslicht.html">Tageslicht und Überhitzung</a></li>
+              <li><a data-i18n-key="li-feature-pv" href="features_solarstrahlung und PV-Simulation.html">Solarstrahlung und PV-Simulation</a></li>
+              <li><a data-i18n-key="li-feature-noise" href="features_lärmbeurteilung.html">Lärmabschätzung</a></li>
+              <li><a data-i18n-key="li-feature-report" href="features_ergebnisreport.html">Ergebnisbericht</a></li>
+            </ul>
+          </li>
+          <li><a data-i18n-key="team" class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a data-i18n-key="contact" class="nav-link scrollto" href="#footer">Kontakt</a></li>
+          <li class="nav-link">
+            <div>
+              <select data-i18n-switcher class="locale-switcher form-select" name="" id="">
+                <option value="de">Deutsch</option>
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li data-i18n-key="features-breadcrumbs-main">Features Details</li>
+          <li data-i18n-key="li-feature-certifications">ESG, SNBS und Minergie</li>
+        </ol>
+        <h2 data-i18n-key="li-feature-certifications">ESG, SNBS und Minergie</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/MicrosoftTeams-image (1).png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Zertifizierung1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Zertifizierung2.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2 data-i18n-key="feature-certifications-title">ESG, SNBS und Minergie im ESD</h2>
+              <p data-i18n-key="feature-certifications-description">
+                Portfoliobesitzer wollen (und müssen) ihre Portfolios im Sinne der EU-Taxonomieverordnung zu CO2-neutralen Produkten transformieren. Hierbei ist es wichtig, belastbare Verbrauchsdaten der Assets und ihre Stranding-Zeitpunkte zu kennen, um frühzeitige und datenbasierte Entscheidungen zu treffen. Für zukunftsfähige Objekte müssen energetische Massnahmen bestimmt und Sanierungsfahrpläne erstellt werden. Gruner bietet hier als erfahrenes Ingenieurunternehmen mit hoher Affinität zu Digitalisierung und über 1000 Mitarbeitern skalierbare Lösungen an, um endlich vom "talking" ins "doing" zu kommen. Von der Portfolio-Analyse über die Massnahmenermittlung bis zur Sanierungsplanung, unsere Ingenieure aus allen Bereichen des Hochbaus helfen Ihnen, Ihr Transformationsziel so effizient wie möglich umzusetzen, sowohl von ökologischer als auch ökonomischer Sichtweise.
+              </p>
+            </div>
+<!--             <div class="portfolio-info">
+              <h3>Mehr Informationen</h3>
+              <ul>
+                <li><strong>Leistungsblatt</strong>: <a href="#" download="" target="_blank">ESG, SNBS und Minergie</a></li>
+              </ul>
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/svg/gruner-logo.svg" alt="">
+          </a>
+          <p data-i18n-key="gru-tagline">Und der Plan geht auf.</p>
+          <div class="social-links mt-3">
+            <a href="https://www.linkedin.com/company/gruner-gruppe/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.xing.com/pages/grunerag" class="twitter"><i class="fa-brands fa-xing"></i></a>
+            <a href="https://www.youtube.com/user/GrunerGruppe" class="instagram"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6 footer-links">
+          <h4 data-i18n-key="about-title">Über uns</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="portrait" href="https://www.gruner.ch/de/ueber-uns/kurzportrait">Kurzportrait</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="location" href="https://www.gruner.ch/de/kontakt">Standorte</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="newsletter" href="https://www.gruner.ch/de/e-newsletter">E-Newsletter</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="media" href="https://www.gruner.ch/de/mediathek">Mediathek</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="impressum" href="https://www.gruner.ch/de/impressum-datenschutzerklaerung">Impressum / Datenschutz</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4 data-i18n-key="competencies-title">Kompetenzen</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="fire-safety" href="https://www.gruner.ch/de/kompetenzen/brandschutz">Brandschutz</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="energy" href="https://www.gruner.ch/de/kompetenzen/energie">Energie</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="building-systems" href="https://www.gruner.ch/de/kompetenzen/gebaeudetechnik">Gebäudetechnik</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="general-planning" href="https://www.gruner.ch/de/kompetenzen/generalplanung">Generalplanung</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="infrastructure" href="https://www.gruner.ch/de/kompetenzen/infrastruktur">Infrastruktur</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="structural-design" href="https://www.gruner.ch/de/kompetenzen/konstruktion">Konstruktion</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="security" href="https://www.gruner.ch/de/kompetenzen/sicherheit">Sicherheit</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="environment" href="https://www.gruner.ch/de/kompetenzen/umwelt">Umwelt</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Gruner</h4>
+          <span data-i18n-key="address-l1">St. Jakobs-Strasse 199 </span><br>
+          <span data-i18n-key="address-l2">CH-4020 Basel</span><br>
+          <span data-i18n-key="address-l3">Schweiz</span><br><br>
+          <p>
+            <strong data-i18n-key="phone">Telefon:</strong> +41 61 317 61 61<br>
+            <strong data-i18n-key="email">E-Mail:</strong> info@gruner.ch<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; 2023 Gruner AG</span>.
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- I18n Vanilla JS internalization for language translation-->
+  <script src="assets/js/languages.js"></script>
+
+</body>
+
+</html>
