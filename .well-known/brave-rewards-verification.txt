@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: earlystagedesign.ch
+Token: badd6ff844484d117397b45cd9865c140cecdd11f70aa68c86d1de57a24c158d
