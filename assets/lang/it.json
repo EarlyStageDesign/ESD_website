@@ -33,7 +33,7 @@
         "goals-title": "il nostro obiettivo",
         "goals": "Decisioni mirate e affidabili in anticipo",
         "g1-title": "Processo decisionale in anticipo",
-        "g1-description": "Le analisi automatizzate ci permettono di prendere decisioni nelle prime fasi del progetto. Le decisioni prese in questa fase hanno un impatto enorme sul progetto..",
+        "g1-description": "Le analisi automatizzate ci permettono di prendere decisioni nelle prime fasi del progetto. Le decisioni prese in questa fase hanno un impatto enorme sul progetto.",
         "g2-title": "Maggiore affidabilità dei dati",
         "g2-description": "Il nostro obiettivo è facilitare le vostre decisioni fornendo una base di dati di alta qualità, basata sui nostri modelli di simulazioni. Scegliete tra le analisi che utilizzano i moduli ESD.",
         "g3-title": "Processo decisionale più mirate",
@@ -45,8 +45,8 @@
 
     "_services-section (features)": "",
         "features-title": "I MODULI",
-        "features-subtitle": "scopri i moduli ESD",
-        "more": "più info",
+        "features-subtitle": "Scopri i moduli ESD",
+        "more": "Più info",
 
         "f1-title": "Generazione geometrica",
         "f1-description": "La progettazione parametrica consente di creare diverse tipologie di edifici e di confrontarle tra loro. I vostri suggerimenti vengono integrati nel processo di generazione.",
@@ -55,7 +55,7 @@
         "f3-title": "Analisi delle superfici",
         "f3-description": "I dati fondamentali come l'efficienza dello spazio, il rapporto di utilizzo o la superficie lorda possono essere visualizzati direttamente e integrati nel processo decisionale.",
         "f4-title": "Calcolo dei costi",
-        "f4-description": "Le superfici dei componenti edilizie necessarie al calcolo dei costi vengono estratte automaticamente dalla geometria in base alla classificazione eBKP-H per elementi (piano dei costi di costruzione basato su elementi per la costruzione di edifici)..",
+        "f4-description": "Le superfici dei componenti edilizie necessarie al calcolo dei costi vengono estratte automaticamente dalla geometria in base alla classificazione eBKP-H per elementi (piano dei costi di costruzione basato su elementi per la costruzione di edifici).",
         "f5-title": "Energia e CO2 in costruzione",
         "f5-description": "L'impatto ambientale della costruzione dell'edificio viene determinato attraverso l'energia immagazzinata nei materiali per la costruzione. In questo modo è possibile stimare tempestivamente gli effetti di diverse geometrie e materiali da costruzione.",
         "f6-title": "Energia e CO2 in funzionamento",
@@ -67,7 +67,7 @@
         "f9-title": "Radiazione e simulazione solare",
         "f9-description": "Le simulazioni dell'irraggiamento solare aiutano a calcolare la produzione di energia e a individuare il miglior posizionamento dei moduli fotovoltaici.",
         "f10-title": "Comfort acustico",
-        "f10-description": "La stima dell'impatto acustico delle strade limitrofe sugli edifici residenziali consente di riconoscere in anticipo i potenziali problemi e garantire condizioni di vita confortevoli per i residenti..",
+        "f10-description": "La stima dell'impatto acustico delle strade limitrofe sugli edifici residenziali consente di riconoscere in anticipo i potenziali problemi e garantire condizioni di vita confortevoli per i residenti.",
         "f11-title": "Reporting",
         "f11-description": "I risultati delle analisi vengono registrati in un report generato automaticamente. i dati basati sulle simulazioni e sul modello integrato vi aiuta a prendere decisioni migliori.",
         "f12-title": "Nuovi Moduli",
@@ -89,7 +89,7 @@
         "description-akd": "Ingegnere di progetto per le simulazioni termodinamiche",
 
         "former-team-title": "Team",
-        "former-team-subtitle": "membri che hanno collaborato con noi",
+        "former-team-subtitle": "Membri che hanno collaborato con noi",
 
         "description-doch": "Product Owner & Entwickler Real Estate",
         "date-doch": "Maggio 2023 - Maggio 2024",
@@ -102,7 +102,7 @@
 
 
     "_footer_section": "",
-        "gru-tagline": "tutto secondo i piani.",
+        "gru-tagline": "Tutto secondo i piani.",
         "about-title": "Su di Noi",
             "portrait": "Profilo",
             "location": "Sedi",
