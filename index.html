@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="Deutsch">
+<html lang="de">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Early Stage Design</title>
-  <meta content="" name="description">
+  <meta content="Eine Innovation von Gruner" name="description">
 
-  <meta content="" name="keywords">
+  <meta content="ESD" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -23,7 +23,7 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -31,18 +31,18 @@
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/aff7311d80.js" crossorigin="anonymous"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 
 
   <!-- Global site tag (gtag.js) - Google Analytics PERSONAL ANALYTICS CNA -->
- <!--  <script async src="https://www.googletagmanager.com/gtag/js?id=G-73H9949JD3"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-73H9949JD3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-73H9949JD3');
-  </script> -->
+  </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics GRU ANALYTICS -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SD14ZVFRJ"></script>
@@ -69,30 +69,34 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-         <!--  <li><a class="nav-link scrollto" href="#about">ESD</a></li> -->
-         <li class="dropdown"><a href="#services"><span>Features</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="de_features_volumenkörpererzeugung.html">Volumenkörpererzeugung</a></li>
-            <li><a href="de_features_schattenwurf.html">Schattenwurf</a></li>
-            <li><a href="de_features_flächenberechnungen.html">Flächenberechnungen</a></li>
-            <li><a href="de_features_kostenermittlung.html">Kostenermittlung</a></li>
-            <li><a href="de_features_energiebedarf und CO2 erstellung.html">Energiebedarf und CO2 Erstellung</a></li>
-            <li><a href="de_features_energiebedarf und CO2 betrieb.html">Energiebedarf und CO2 Betrieb</a></li>
-            <li><a href="de_features_ESG, SNBS und Minergie.html">ESG, SNBS und Minergie</a></li>
-            <li><a href="de_features_tageslicht.html">Tageslicht und Überhitzung</a></li>
-            <li><a href="de_features_solarstrahlung und PV-Simulation.html">Solarstrahlung und PV-Simulation</a></li>
-            <li><a href="de_features_lärmbeurteilung.html">Lärmabschätzung</a></li>
-            <li><a href="de_features_ergebnisreport.html">Ergebnisbericht</a></li>
-          </ul>
-        </li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+          <!--  <li><a class="nav-link scrollto" href="#about">ESD</a></li> -->
+          <li class="dropdown"><a data-i18n-key="features" href="#services"><span>Features</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="en.html">English</a></li>
-              <li><a href="index.html">Deutsch</a></li>
+              <li><a data-i18n-key="li-feature-geogen" href="features_volumenkörpererzeugung.html">Volumenkörpererzeugung</a></li>
+              <li><a data-i18n-key="li-feature-shadowcast" href="features_schattenwurf.html">Schattenwurf</a></li>
+              <li><a data-i18n-key="li-feature-areas" href="features_flächenberechnungen.html">Flächenberechnungen</a></li>
+              <li><a data-i18n-key="li-feature-costs" href="features_kostenermittlung.html">Kostenermittlung</a></li>
+              <li><a data-i18n-key="li-feature-construction" href="features_energiebedarf und CO2 erstellung.html">Energiebedarf und CO2 Erstellung</a></li>
+              <li><a data-i18n-key="li-feature-operational" href="features_energiebedarf und CO2 betrieb.html">Energiebedarf und CO2 Betrieb</a></li>
+              <li><a data-i18n-key="li-feature-certifications" href="features_ESG, SNBS und Minergie.html">ESG, SNBS und Minergie</a></li>
+              <li><a data-i18n-key="li-feature-daylight" href="features_tageslicht.html">Tageslicht und Überhitzung</a></li>
+              <li><a data-i18n-key="li-feature-pv" href="features_solarstrahlung und PV-Simulation.html">Solarstrahlung und PV-Simulation</a></li>
+              <li><a data-i18n-key="li-feature-noise" href="features_lärmbeurteilung.html">Lärmabschätzung</a></li>
+              <li><a data-i18n-key="li-feature-report" href="features_ergebnisreport.html">Ergebnisbericht</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#footer">Kontakt</a></li>
+          <li><a data-i18n-key="team" class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a data-i18n-key="contact" class="nav-link scrollto" href="#footer">Kontakt</a></li>
+          <li class="nav-link">
+            <div>
+              <select data-i18n-switcher class="locale-switcher form-select" name="" id="">
+                <option value="de">Deutsch</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -110,18 +114,18 @@
           <!-- <h2 data-aos="fade-up" data-aos-delay="400">Early Stage Design</h2> -->
           <!-- <h1 class="fadein-1st">Gruner</h1> -->
           <h1 data-aos="fade-up">Early Stage Design</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Schneller bessere Entscheidungen treffen.</h2>
+          <h2 data-aos="fade-up" data-aos-delay="400" data-i18n-key="esd-tagline">Schneller bessere Entscheidungen treffen.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                <span>Get Started</span>
+                <span data-i18n-key="get-started">Get Started</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="fade-left" data-aos-delay="1200">
-          <p>Eine Innovation von </p>
+          <p data-i18n-key="innovation-tag">Eine Innovation von </p>
           <img src="assets/svg/gruner-logo.svg" class="img-fluid" alt="">
         </div>
       </div>
@@ -138,14 +142,14 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
-              <h3>WAS IST EARLY STAGE DESIGN (ESD)</h3>
-              <h2>ESD ist die automatisierte Bewertung von Bauprojekten in frühen Projektphasen.</h2>
-              <p>
+              <h3 data-i18n-key="what-esd">WAS IST EARLY STAGE DESIGN (ESD)</h3>
+              <h2 data-i18n-key="answer-esd">ESD ist die automatisierte Bewertung von Bauprojekten in frühen Projektphasen.</h2>
+              <p data-i18n-key="description-esd">
                 Wir automatisieren Bewertungen von Bauprojekten um den Fokus auf die Entscheidungsfindung zu legen. Hochwertige Machbarkeitsstudien werden in wenig Zeit möglich. Unvorstellbar? Werfen Sie einen Blick auf die ESD Features.
               </p>
               <div class="text-center text-lg-start">
                 <a href="#values" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
+                  <span data-i18n-key="read-more">Read More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -157,13 +161,9 @@
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="assets/img/caroussel_main/main1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
                   <img src="assets/img/caroussel_main/main3.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -192,8 +192,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Unser Ziel</h2>
-          <p>Schnellere, bessere, sichere Entscheidungen</p>
+          <h2 data-i18n-key="goals-title">Unser Ziel</h2>
+          <p data-i18n-key="goals">Schnellere, bessere, sichere Entscheidungen</p>
         </header>
 
         <div class="row">
@@ -204,8 +204,8 @@
                 <i class="fa-solid fa-stopwatch fa-4x fa-shake" style="--fa-animation-delay: 600ms; --fa-animation-duration: 3s; --fa-animation-iteration-count: 1; "></i>
               </div>
               <!-- <img src="assets/img/values-1.png" class="img-fluid" alt=""> -->
-              <h3>Schnellere Enscheidungsfähigkeit</h3>
-              <p>Durch automatisierte Analysen ermöglichen wir Entscheidungsfähigkeit in frühen Projektphasen. Entscheidungen haben in dieser Phase enorme Auswirkung auf das Projekt.</p>
+              <h3 data-i18n-key="g1-title">Schnellere Enscheidungsfähigkeit</h3>
+              <p data-i18n-key="g1-description">Durch automatisierte Analysen ermöglichen wir Entscheidungsfähigkeit in frühen Projektphasen. Entscheidungen haben in dieser Phase enorme Auswirkung auf das Projekt.</p>
             </div>
           </div>
 
@@ -216,8 +216,8 @@
               </div>
               <!-- <img src="assets/img/values-2.png" class="img-fluid" alt=""> -->
               <Div class="row">
-                <h3>Höhere Datenqualität</h3>
-                <p>Unser Ziel ist es Ihnen Entscheidungen durch eine hochwertige Datengrundlage zu erleichtern. Wählen Sie hierfür aus den Analysen durch die ESD-Features aus.</p>
+                <h3 data-i18n-key="g2-title">Höhere Datenqualität</h3>
+                <p data-i18n-key="g2-description">Unser Ziel ist es Ihnen Entscheidungen durch eine hochwertige Datengrundlage zu erleichtern. Wählen Sie hierfür aus den Analysen durch die ESD-Features aus.</p>
               </Div>
             </div>
           </div>
@@ -228,8 +228,8 @@
                 <i class="fa-solid fa-code-compare fa-4x fa-spin" style="--fa-animation-delay: 600ms; --fa-animation-duration: 3s; --fa-animation-iteration-count: 1; "></i>
               </div>
               <!-- <img src="assets/img/values-3.png" class="img-fluid" alt=""> -->
-              <h3>Sichere Entscheidungsgrundlage</h3>
-              <p>Durch den Vergleich von vielen Varianten und die Einordnung anhand von Benchmarks können Entscheidungen mit hoher Sicherheit getroffen werden.</p>
+              <h3 data-i18n-key="g3-title">Sichere Entscheidungsgrundlage</h3>
+              <p data-i18n-key="g3-description">Durch den Vergleich von vielen Varianten und die Einordnung anhand von Benchmarks können Entscheidungen mit hoher Sicherheit getroffen werden.</p>
             </div>
           </div>
 
@@ -244,10 +244,16 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/gif/main/dashboard1.gif" class="d-block w-100" alt="...">
+                <video autoplay loop muted playsinline class="d-block w-100" alt="...">
+                  <source src="assets/gif/main/dashboard1.webm" type="video/webm">
+                  <source src="assets/gif/main/dashboard1.mp4" type="video/mp4">
+                </video>
               </div>
               <div class="carousel-item">
-                <img src="assets/gif/main/dashboard2.gif" class="d-block w-100" alt="...">
+                <video autoplay loop muted playsinline class="d-block w-100" alt="...">
+                  <source src="assets/gif/main/dashboard2.webm" type="video/webm">
+                  <source src="assets/gif/main/dashboard2.mp4" type="video/mp4">
+                </video>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselmain" data-bs-slide="prev">
@@ -272,14 +278,14 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Der Prozess</h2>
-          <p>Der Prozess des Early Stage Design</p>
+          <h2 data-i18n-key="process-title">Der Prozess</h2>
+          <p data-i18n-key="process-subtitle">Der Prozess des Early Stage Design</p>
         </header>
 
         <div class="row">
 
           <div class="col-lg process" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/ESD_prozess.png" class="img-fluid" alt="">
+            <img src="assets/img/ESD_process.png" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -294,8 +300,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>DIE FEATURES</h2>
-          <p>Entdecken Sie die ESD-Features</p>
+          <h2 data-i18n-key="features-title">DIE FEATURES</h2>
+          <p data-i18n-key="features-subtitle">Entdecken Sie die ESD-Features</p>
         </header>
 
         <div class="row gy-4">
@@ -303,107 +309,107 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-box orange">
               <img id="volume" src="assets/gif/Modules/volume.gif" class="img-fluid icon" alt="">
-              <h3>Volumenkörpererzeugung</h3>
-              <p>Durch parametriches Design können unterschiedliche Gebäudetypologien erstellt und miteinander verglichen werden. Ihre Vorschläge fliessen in den Erstellungsprozess mit ein.</p>
-              <a href="de_features_volumenkörpererzeugung.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f1-title">Volumenkörpererzeugung</h3>
+              <p data-i18n-key="f1-description">Durch parametriches Design können unterschiedliche Gebäudetypologien erstellt und miteinander verglichen werden. Ihre Vorschläge fliessen in den Erstellungsprozess mit ein.</p>
+              <a href="features_volumenkörpererzeugung.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-box blue">
               <img id="schattenwurf" src="assets/gif/Modules/schattenwurf.gif" class="img-fluid icon" alt="">
-              <h3>Schattenwurf</h3>
-              <p>Für die Planung von Hochhäusern ist eine Schattenberechnung gesetzlich vorgeschrieben. In diesem Fall wird die Erfassung des Schattenwurfs in die Analyse integriert.</p>
-              <a href="de_features_schattenwurf.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f2-title">Schattenwurf</h3>
+              <p data-i18n-key="f2-description">Für die Planung von Hochhäusern ist eine Schattenberechnung gesetzlich vorgeschrieben. In diesem Fall wird die Erfassung des Schattenwurfs in die Analyse integriert.</p>
+              <a data-i18n-key="more" href="features_schattenwurf.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box green">
               <img id="fläche" src="assets/gif/Modules/fläche.gif" class="img-fluid icon" alt="">
-              <h3>Flächenberechnungen</h3>
-              <p>Wichtige Kennzahlen wie Flächeneffizienz, Ausnützungsziffer oder Bruttogeschossfläche können unmittelbar angezeigt werden und in ihren Entscheidungsprozess einfliessen.</p>
-              <a href="de_features_flächenberechnungen.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f3-title">Flächenberechnungen</h3>
+              <p data-i18n-key="f3-description">Wichtige Kennzahlen wie Flächeneffizienz, Ausnützungsziffer oder Bruttogeschossfläche können unmittelbar angezeigt werden und in ihren Entscheidungsprozess einfliessen.</p>
+              <a href="features_flächenberechnungen.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-box darkblue">
               <img id="costs" src="assets/gif/Modules/costs.gif" class="img-fluid icon" alt="">
-              <h3>Kostenermittlung</h3>
-              <p>Die Bauteilflächen für die Kostenberechnung werden automatisch nach Elementgruppen des eBKP-H (elementbasierter Baukostenplan Hochbau) aus der Geometrie extrahiert.</p>
-              <a href="de_features_kostenermittlung.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f4-title">Kostenermittlung</h3>
+              <p data-i18n-key="f4-description">Die Bauteilflächen für die Kostenberechnung werden automatisch nach Elementgruppen des eBKP-H (elementbasierter Baukostenplan Hochbau) aus der Geometrie extrahiert.</p>
+              <a href="features_kostenermittlung.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-box red">
               <img id="erstellung" src="assets/gif/Modules/erstellung.gif" class="img-fluid icon" alt="">
-              <h3>Energiebedarf und CO2 Erstellung</h3>
-              <p>Der Umwelteinfluss der Erstellung des Gebäudes wird über die Bauteile ermittelt. Eine frühe Abschätzung von den Auswirkungen unterschiedlicher Geometrien und Baustoffe wird so möglich.</p>
-              <a href="de_features_energiebedarf und CO2 erstellung.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f5-title">Energiebedarf und CO2 Erstellung</h3>
+              <p data-i18n-key="f5-description">Der Umwelteinfluss der Erstellung des Gebäudes wird über die Bauteile ermittelt. Eine frühe Abschätzung von den Auswirkungen unterschiedlicher Geometrien und Baustoffe wird so möglich.</p>
+              <a href="features_energiebedarf und CO2 erstellung.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-box yellow">
               <img id="operational" src="assets/gif/Modules/operational.gif" class="img-fluid icon" alt="">
-              <h3>Energiebedarf und CO2 Betrieb</h3>
-              <p>Der Energiebedarf und die CO2-Emissionen für den Betrieb können abgeschätzt werden. Detaillierte Energiebedarfsberechnungen werden über eine integrierte thermische Gebäudesimulation möglich.</p>
-              <a href="de_features_energiebedarf und CO2 betrieb.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f6-title">Energiebedarf und CO2 Betrieb</h3>
+              <p data-i18n-key="f6-description">Der Energiebedarf und die CO2-Emissionen für den Betrieb können abgeschätzt werden. Detaillierte Energiebedarfsberechnungen werden über eine integrierte thermische Gebäudesimulation möglich.</p>
+              <a href="features_energiebedarf und CO2 betrieb.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
             <div class="service-box orange">
               <img id="labels" src="assets/gif/Modules/labels.gif" class="img-fluid icon" alt="">
-              <h3>ESG, SNBS und MINERGIE</h3>
-              <p>Die Einordnung der ermittelten Kennzahlen erfolgt zum Beispiel über den Standard Nachhaltiges Bauen Schweiz (SNBS) oder Minergie.</p>
-              <a href="de_features_ESG, SNBS und Minergie.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f7-title">ESG, SNBS und MINERGIE</h3>
+              <p data-i18n-key="f7-description">Die Einordnung der ermittelten Kennzahlen erfolgt zum Beispiel über den Standard Nachhaltiges Bauen Schweiz (SNBS) oder Minergie.</p>
+              <a href="features_ESG, SNBS und Minergie.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
             <div class="service-box yellow">
               <img id="tageslicht" src="assets/gif/Modules/tageslicht.gif" class="img-fluid icon" alt="">
-              <h3>Tageslicht und Überhitzung</h3>
-              <p>Tageslicht- und Überhitzungssimulationen können miteinander verbunden werden, um herauszufinden, ob das Projekt komfortable Innenraumbedingungen gewährleistet.</p>
-              <a href="de_features_tageslicht.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f8-title">Tageslicht und Überhitzung</h3>
+              <p data-i18n-key="f8-description">Tageslicht- und Überhitzungssimulationen können miteinander verbunden werden, um herauszufinden, ob das Projekt komfortable Innenraumbedingungen gewährleistet.</p>
+              <a href="features_tageslicht.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
             <div class="service-box green">
               <img id="solar" src="assets/gif/Modules/sonnestrahlung.gif" class="img-fluid icon" alt="">
-              <h3>Solarstrahlung und PV-Simulation</h3>
-              <p>Simulationen der Sonneneinstrahlung helfen bei der Berechnung der Energieproduktion und der Identifizierung der besten Platzierung für die PV-Module.</p>
-              <a href="de_features_solarstrahlung und PV-Simulation.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f9-title">Solarstrahlung und PV-Simulation</h3>
+              <p data-i18n-key="f9-description">Simulationen der Sonneneinstrahlung helfen bei der Berechnung der Energieproduktion und der Identifizierung der besten Platzierung für die PV-Module.</p>
+              <a href="features_solarstrahlung und PV-Simulation.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1000">
             <div class="service-box darkblue">
               <img id="lärm" src="assets/gif/Modules/lärm.gif" class="img-fluid icon" alt="">
-              <h3>Lärmabschätzung</h3>
-              <p>Die Lärmbewertung schätzt die Lärmbelastung von Gebäuden durch angrenzende Strassen. Dadurch wer-den mögliche Probleme, die weiter untersucht werden müssen, im Voraus erkannt und das angenehme Wohnen für die Bewohner gesichert. </p>
-              <a href="de_features_lärmbeurteilung.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f10-title">Lärmabschätzung</h3>
+              <p data-i18n-key="f10-description">Die Lärmbewertung schätzt die Lärmbelastung von Gebäuden durch angrenzende Strassen. Dadurch wer-den mögliche Probleme, die weiter untersucht werden müssen, im Voraus erkannt und das angenehme Wohnen für die Bewohner gesichert. </p>
+              <a href="features_lärmbeurteilung.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
             <div class="service-box blue">
               <img id="report" src="assets/gif/Modules/report.gif" class="img-fluid icon" alt="">
-              <h3>Ergebnisbericht</h3>
-              <p>Die Ergebnisse der Analysen werden in einem automatisch erstellten Report festgehalten. Durch die fundierte Datengrundlage helfen wir Ihnen bessere Entscheidungen zu treffen.</p>
-              <a href="de_features_ergebnisreport.html" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a>
+              <h3 data-i18n-key="f11-title">Ergebnisbericht</h3>
+              <p data-i18n-key="f11-description">Die Ergebnisse der Analysen werden in einem automatisch erstellten Report festgehalten. Durch die fundierte Datengrundlage helfen wir Ihnen bessere Entscheidungen zu treffen.</p>
+              <a href="features_ergebnisreport.html" class="read-more"><span data-i18n-key="more">Mehr</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="1000">
-            <div class="service-box yellow">
+            <div class="service-box orange">
               <img id="neues" src="assets/gif/Modules/neues.gif" class="img-fluid icon" alt="">
-              <h3>Neue Features</h3>
-              <p>Unser Ziel ist es Ihnen eine hochwertige Entscheidungsgrundlage zu liefern. Gerne erstellen wir dafür neue, auf Ihre Ziele zugeschnittene Analysen. Kommen Sie dafür einfach auf uns zu.</p>
+              <h3 data-i18n-key="f12-title">Neue Features</h3>
+              <p data-i18n-key="f12-description">Unser Ziel ist es Ihnen eine hochwertige Entscheidungsgrundlage zu liefern. Gerne erstellen wir dafür neue, auf Ihre Ziele zugeschnittene Analysen. Kommen Sie dafür einfach auf uns zu.</p>
               <!-- <a href="#" class="read-more"><span>Mehr</span> <i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div>
@@ -576,8 +582,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>DAS TEAM</h2>
-          <p>Ihre AnsprechpartnerInnen</p>
+          <h2 data-i18n-key="team-title">DAS TEAM</h2>
+          <p data-i18n-key="team-subtitle">Ihre AnsprechpartnerInnen</p>
         </header>
 
         <div class="row gy-4">
@@ -586,16 +592,16 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/FRMA.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/manuelfrey/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
               <div class="member-info">
-                <h4>Manuel Frey</h4>
-                <span>Abteilungsleiter Digitale Planung, Head Early Stage Design (ESD)</span>
+                <h4><a href="https://www.linkedin.com/in/manuelfrey/" target="_blank"><i class="bi bi-linkedin"></i></a> Manuel Frey</h4>
+                <span data-i18n-key="description-frma">Abteilungsleiter Digitale Planung, Head Early Stage Design (ESD)</span>
                 <p> </p>
                 <span>manuel.frey@gruner.ch</span>
                 <span>+41 31 917 20 90</span>
@@ -610,16 +616,16 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/CNA.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/ncatunda/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
               <div class="member-info">
-                <h4>Natasha Catunda</h4>
-                <span>ESD Lead Computational Designer</span>
+                <h4><a href="https://www.linkedin.com/in/ncatunda/" target="_blank"><i class="bi bi-linkedin"></i></a> Natasha Catunda</h4>
+                <span data-i18n-key="description-cna">Lead Computational Designer</span>
                 <p> </p>
                 <span>natasha.catunda@gruner.ch</span>
                 <span>+41 31 917 20 91</span>
@@ -633,20 +639,44 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/AFU.png" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <img src="assets/img/team/AFU.jpg" class="img-fluid" alt="">
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/andrea-fumagalli-61526b123/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
               <div class="member-info">
-                <h4>Andrea Fumagalli</h4>
-                <span>ESD Computational Designer</span>
+                <h4><a href="https://www.linkedin.com/in/andrea-fumagalli-61526b123/" target="_blank"><i class="bi bi-linkedin"></i></a> Andrea Fumagalli</h4>
+                <span data-i18n-key="description-afu">Computational Designer</span>
                 <p> </p>
                 <span>andrea.fumagalli@gruner.ch</span>
                 <span>+41 31 917 20 92</span>
+                <span>Gruner</span>
+                <span>Sägestrasse 73</span>
+                <span>CH-3098 Köniz</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/blattmann.jpg" class="img-fluid" alt="">
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/lukas-blattmann/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div> -->
+              </div>
+              <div class="member-info">
+                <h4><a href="https://www.linkedin.com/in/lukas-blattmann/" target="_blank"><i class="bi bi-linkedin"></i></a> Lukas Blattmannn</h4>
+                <span data-i18n-key="description-bllu">Projektleiter ESG Portfolio Analyse</span>
+                <p> </p>
+                <span>lukas.blattmann@gruner.ch</span>
+                <span>+41 31 917 10 54</span>
                 <span>Gruner</span>
                 <span>Sägestrasse 73</span>
                 <span>CH-3098 Köniz</span>
@@ -658,16 +688,16 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/judith.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <!-- <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a> 
                   <a href="https://www.linkedin.com/in/judith-ruetsche-33a999bb/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div>-->
               </div>
               <div class="member-info">
-                <h4>Judith Rütsche</h4>
-                <span>Abteilungsleiterin Raum, Mobilität und Nachhaltigkeit</span>
+                <h4><a href="https://www.linkedin.com/in/judith-ruetsche-33a999bb//" target="_blank"><i class="bi bi-linkedin"></i></a> Judith Rütsche</h4>
+                <span data-i18n-key="description-ruej">Abteilungsleiterin Raum, Mobilität und Nachhaltigkeit</span>
                 <p> </p>
                 <span>judith.ruetsche@gruner.ch</span>
                 <span>+41 31 544 24 80</span>
@@ -682,16 +712,16 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/BEY.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <!--<div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a> 
                   <a href="https://www.linkedin.com/in/martin-beyeler-80601b172/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div>-->
               </div>
               <div class="member-info">
-                <h4>Martin Beyeler</h4>
-                <span>Abteilungsleiter Bauphysik, Akustik</span>
+                <h4><a href="https://www.linkedin.com/in/martin-beyeler-80601b172/" target="_blank"><i class="bi bi-linkedin"></i></a> Martin Beyeler</h4>
+                <span data-i18n-key="description-bey">Abteilungsleiter Bauphysik, Akustik</span>
                 <p> </p>
                 <span>martin.beyeler@gruner.ch</span>
                 <span>+41 61 317 64 32</span>
@@ -705,41 +735,17 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/esther.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/esther-rusnak-98a00515a/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Esther Rusnak</h4>
-                <span>Leiterin Kompetenzzentrum Nachhaltigkeit</span>
-                <p> </p>
-                <span>esther.rusnak@gruner.ch</span>
-                <span>+41 61 317 62 64</span>
-                <span>Gruner</span>
-                <span>St. Jakobs-Strasse 199</span>
-                <span>CH-4020 Basel</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img">
                 <img src="assets/img/team/PAST.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <!--<div class="social">
+                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a> 
                   <a href="https://www.linkedin.com/in/stephan-parlow-855a82240/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div>-->
               </div>
               <div class="member-info">
-                <h4>Stephan Matthias Parlow</h4>
-                <span>Senior Experte Nachhaltigkeitsmanagement</span>
+                <h4><a href="https://www.linkedin.com/in/stephan-parlow-855a82240/" target="_blank"><i class="bi bi-linkedin"></i></a> Stephan Matthias Parlow</h4>
+                <span data-i18n-key="description-past">Senior Experte Nachhaltigkeitsmanagement</span>
                 <p> </p>
                 <span>stephan.parlow@gruner.ch</span>
                 <span> </span>
@@ -750,20 +756,15 @@
             </div>
           </div>
 
+          <!--
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/alain.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/alain-kraus-2b49ab154/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
               <div class="member-info">
-                <h4>Alain Kraus</h4>
-                <span>Abteilungsleiter Kostenplanung</span>
+                <h4><a href="https://www.linkedin.com/in/alain-kraus-2b49ab154/" target="_blank"><i class="bi bi-linkedin"></i></a> Alain Kraus</h4>
+                <span data-i18n-key="description-kra">Abteilungsleiter Kostenplanung</span>
                 <p> </p>
                 <span>alain.kraus@gruner.ch</span>
                 <span>+41 61 317 62 65</span>
@@ -772,22 +773,22 @@
                 <span>CH-4020 Basel</span>
               </div>
             </div>
-          </div>
+          </div>-->
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/schumacher.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <!-- <div class="social">
+                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a> 
                   <a href="https://www.linkedin.com/in/michael-s-771631201/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
               <div class="member-info">
-                <h4>Michael Schumacher</h4>
-                <span>Abteilungsleiter Tragwerksplanung</span>
+                <h4><a href="https://www.linkedin.com/in/michael-s-771631201/" target="_blank"><i class="bi bi-linkedin"></i></a> Michael Schumacher</h4>
+                <span data-i18n-key="description-sml">Abteilungsleiter Tragwerksplanung</span>
                 <p> </p>
                 <span>michael.schumacher@gruner.ch</span>
                 <span>+41 61 317 60 11</span>
@@ -802,43 +803,19 @@
             <div class="member">
               <div class="member-img">
                 <img src="assets/img/team/AKD.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                <!-- <div class="social">
+                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
+                  <a href=""><i class="bi bi-instagram"></i></a> 
                   <a href="https://www.linkedin.com/in/david-akeret-01b190147/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div>-->
               </div>
               <div class="member-info">
-                <h4>David Akeret</h4>
-                <span>Projektingenieur Bauklimatik & Simulation</span>
+                <h4><a href="https://www.linkedin.com/in/david-akeret-01b190147/" target="_blank"><i class="bi bi-linkedin"></i></a> David Akeret</h4>
+                <span data-i18n-key="description-akd">Projektingenieur Bauklimatik & Simulation</span>
                 <p> </p>
                 <span>david.akeret@gruner.ch</span>
                 <span>+41 31 917 20 33</span>
-                <span>Gruner</span>
-                <span>Sägestrasse 73</span>
-                <span>CH-3098 Köniz</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img">
-                <img src="assets/img/team/blattmann.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a> -->
-                  <a href="https://www.linkedin.com/in/lukas-blattmann/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Lukas Blattmannn</h4>
-                <span>Projektingenieur ESG Portfolio Analyse</span>
-                <p> </p>
-                <span>lukas.blattmann@gruner.ch</span>
-                <span>+41 31 917 10 54</span>
                 <span>Gruner</span>
                 <span>Sägestrasse 73</span>
                 <span>CH-3098 Köniz</span>
@@ -859,8 +836,8 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Team</h2>
-          <h3>Ehemalige Mitarbeiter des ESD-Teams</h3>
+          <h2 data-i18n-key="former-team-title">Team</h2>
+          <h3 data-i18n-key="former-team-subtitle">Ehemalige Mitarbeiter des ESD-Teams</h3>
         </header>
 
         <div class="collapse" id="navbarToggleExternalContent">
@@ -872,15 +849,38 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
               <div class="member">
                 <div class="member-img">
-                  <img src="assets/img/team/KONA.jpg" class="img-fluid" alt="">
-<!--                   <div class="social">
-                    <a href="https://www.linkedin.com/in/natalia-kobylinska-2a37b375/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                  </div> -->
+                  <img src="assets/img/team/DOCH.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="member-info">
-                  <h5><a href="https://www.linkedin.com/in/natalia-kobylinska-2a37b375/"><i class="bi bi-linkedin"></i></a> Natalia Kobylinska</h5>
-                  <span>ESD Computational Designer</span>
-                  <span>Oktober 2021 - Mai 2022</span>
+                  <h5><a href="https://www.linkedin.com/in/christoph-ben-doerrig/" target="_blank"><i class="bi bi-linkedin"></i></a> Christoph Dörrig</h5>
+                  <span data-i18n-key="description-doch">Product Owner & Entwickler Real Estate</span>
+                  <span data-i18n-key="date-doch">Mai 2023 - Mai 2024</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/esther.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <h5><a href="https://www.linkedin.com/in/esther-rusnak-98a00515a/" target="_blank"><i class="bi bi-linkedin"></i></a> Esther Rusnak</h5>
+                  <span data-i18n-key="description-rue">Leiterin Kompetenzzentrum Nachhaltigkeit</span>
+                  <span data-i18n-key="date-rue">2021 - April 2024</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/KONA.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                  <h5><a href="https://www.linkedin.com/in/natalia-kobylinska-2a37b375/" target="_blank"><i class="bi bi-linkedin"></i></a> Natalia Kobylinska</h5>
+                  <span data-i18n-key="description-kona">ESD Computational Designer</span>
+                  <span data-i18n-key="date-kona">Oktober 2021 - Mai 2022</span>
                 </div>
               </div>
             </div>
@@ -891,9 +891,9 @@
                   <img src="assets/img/team/CLAL.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="member-info">
-                  <h5><a href="https://www.linkedin.com/in/luisa-claus-b4088620a/"><i class="bi bi-linkedin"></i></a> Luisa Claus</h5>
-                  <span>ESD Computational Designer</span>
-                  <span>Oktober 2021 - Mai 2022</span>
+                  <h5><a href="https://www.linkedin.com/in/luisa-claus-b4088620a/" target="_blank"><i class="bi bi-linkedin"></i></a> Luisa Claus</h5>
+                  <span data-i18n-key="description-clal">ESD Computational Designer</span>
+                  <span data-i18n-key="date-clal">Oktober 2021 - Mai 2022</span>
                 </div>
               </div>
             </div>
@@ -1028,7 +1028,7 @@
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/svg/gruner-logo.svg" alt="">
             </a>
-            <p>Und der Plan geht auf.</p>
+            <p data-i18n-key="gru-tagline">Und der Plan geht auf.</p>
             <div class="social-links mt-3">
               <a href="https://www.linkedin.com/company/gruner-gruppe/" class="linkedin"><i class="bi bi-linkedin"></i></a>
               <a href="https://www.xing.com/pages/grunerag" class="twitter"><i class="fa-brands fa-xing"></i></a>
@@ -1036,38 +1036,38 @@
             </div>
           </div>
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Über uns</h4>
+            <h4 data-i18n-key="about-title">Über uns</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/ueber-uns/kurzportrait">Kurzportrait</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kontakt">Standorte</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/e-newsletter">E-Newsletter</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/mediathek">Mediathek</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/impressum-datenschutzerklaerung">Impressum / Datenschutz</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="portrait" href="https://www.gruner.ch/de/ueber-uns/kurzportrait">Kurzportrait</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="location" href="https://www.gruner.ch/de/kontakt">Standorte</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="newsletter" href="https://www.gruner.ch/de/e-newsletter">E-Newsletter</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="media" href="https://www.gruner.ch/de/mediathek">Mediathek</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="impressum" href="https://www.gruner.ch/de/impressum-datenschutzerklaerung">Impressum / Datenschutz</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Kompetenzen</h4>
+            <h4 data-i18n-key="competencies-title">Kompetenzen</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/brandschutz">Brandschutz</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/energie">Energie</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/gebaeudetechnik">Gebäudetechnik</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/generalplanung">Generalplanung</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/infrastruktur">Infrastruktur</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/konstruktion">Konstruktion</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/sicherheit">Sicherheit</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="https://www.gruner.ch/de/kompetenzen/umwelt">Umwelt</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="fire-safety" href="https://www.gruner.ch/de/kompetenzen/brandschutz">Brandschutz</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="energy" href="https://www.gruner.ch/de/kompetenzen/energie">Energie</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="building-systems" href="https://www.gruner.ch/de/kompetenzen/gebaeudetechnik">Gebäudetechnik</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="general-planning" href="https://www.gruner.ch/de/kompetenzen/generalplanung">Generalplanung</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="infrastructure" href="https://www.gruner.ch/de/kompetenzen/infrastruktur">Infrastruktur</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="structural-design" href="https://www.gruner.ch/de/kompetenzen/konstruktion">Konstruktion</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="security" href="https://www.gruner.ch/de/kompetenzen/sicherheit">Sicherheit</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a data-i18n-key="environment" href="https://www.gruner.ch/de/kompetenzen/umwelt">Umwelt</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Gruner</h4>
+            <span data-i18n-key="address-l1">St. Jakobs-Strasse 199 </span><br>
+            <span data-i18n-key="address-l2">CH-4020 Basel</span><br>
+            <span data-i18n-key="address-l3">Schweiz</span><br><br>
             <p>
-              St. Jakobs-Strasse 199 <br>
-              CH-4020 Basel<br>
-              Schweiz <br><br>
-              <strong>Telefon:</strong> +41 61 317 61 61<br>
-              <strong>E-Mail:</strong> info@gruner.ch<br>
+              <strong data-i18n-key="phone">Telefon:</strong> +41 61 317 61 61<br>
+              <strong data-i18n-key="email">E-Mail:</strong> info@gruner.ch<br>
             </p>
 
           </div>
@@ -1078,7 +1078,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; 2022 Gruner AG</span>.
+        &copy; 2023 Gruner AG</span>.
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -1096,6 +1096,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- I18n Vanilla JS internalization for language translation-->
+  <script src="assets/js/languages.js"></script>
 
 
 </body>

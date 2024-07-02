@@ -1,0 +1,13 @@
+Text H1
+	red #EC1C24
+	font "Open Sans", sans serif
+	
+	<strong>For bold headers </strong>
+	
+Text H2
+	Dark grey #111111
+	
+background 
+	red rgb(236, 28, 36)
+	grey #F9F9F9
+	white rgb(255, 255, 255)

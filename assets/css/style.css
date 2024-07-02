@@ -219,7 +219,7 @@ section {
   color:#EC1C24;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #EC1C24;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -227,7 +227,7 @@ section {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: #EC1C24;
 }
 .navbar .dropdown ul {
   display: block;
@@ -246,6 +246,7 @@ section {
 }
 .navbar .dropdown ul li {
   min-width: 200px;
+
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
@@ -257,9 +258,10 @@ section {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #4154f1;
+  color: #EC1C24;
 }
 .navbar .dropdown:hover > ul {
+  background-color: rgba(245, 245, 245, 0.95);
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -275,6 +277,34 @@ section {
   left: 100%;
   visibility: visible;
 }
+
+.form-select {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  color: #111111;
+}
+
+.form-select:hover {
+  box-shadow: 0 0 0 0.3rem rgba(255, 93, 93, 0.1);
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.1rem rgba(255, 93, 93, 0.5);
+}
+
+
+.form-select:hover > option {
+  visibility: visible;
+}
+
+.form-select:disabled {
+  background-color: transparent;
+}
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -1367,6 +1397,13 @@ section {
 }
 .team .member .social a:hover {
   color: rgba(236, 28, 36, 0.8);
+}
+.team .member-info a {
+  transition: color 0.3s;
+  color: rgba(1, 41, 112, 0.5);
+}
+.team .member-info a:hover {
+  color: #0a66c2;
 }
 .team .member .social i {
   font-size: 18px;
