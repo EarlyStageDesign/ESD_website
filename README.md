@@ -1,5 +1,7 @@
 # ESD_website
 
+02.07.2024 - Italian version 
+
 03.10.2022_
     - Added detailed features section
     - Added former coworkers section
