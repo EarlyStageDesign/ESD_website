@@ -80,7 +80,6 @@
         "description-frma": "Abteilungsleiter Digitale Planung, Head Early Stage Design (ESD)",
         "description-cna": "Lead Computational Designer",
         "description-afu": "Computational Designer",
-        "description-doch": "Product Owner & Entwickler Real Estate",
         "description-bllu": "Projektleiter ESG Portfolio Analyse",
         "description-ruej": "Abteilungsleiterin Raum, Mobilität und Nachhaltigkeit",
         "description-bey": "Abteilungsleiter Bauphysik, Akustik",
@@ -92,6 +91,8 @@
         "former-team-title": "Team",
         "former-team-subtitle": "Ehemalige Mitarbeiter des ESD-Teams",
 
+        "description-doch": "Product Owner & Entwickler Real Estate",
+        "date-doch": "Mai 2023 - Mai 2024",
         "description-rue": "Leiterin Kompetenzzentrum Nachhaltigkeit",
         "date-rue": "2021 - April 2024",
         "description-kona": "ESD Computational Designer",

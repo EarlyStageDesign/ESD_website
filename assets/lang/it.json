@@ -80,7 +80,6 @@
         "description-frma": "Responsabile del dipartimento di progettazione digitale, responsabile Early Stage Design (ESD)",
         "description-cna": "Lead Computational Designer",
         "description-afu": "Computational Designer",
-        "description-doch": "Product Owner & Entwickler Real Estate",
         "description-bllu": "Project Manager ESG Portfolio Analysis",
         "description-ruej": "Responsabile del dipartimento Spazio, Mobilità e Sostenibilità",
         "description-bey": "Responsabile del dipartimento di fisica degli edifici, acustica",
@@ -92,12 +91,15 @@
         "former-team-title": "Team",
         "former-team-subtitle": "membri che hanno collaborato con noi",
 
+        "description-doch": "Product Owner & Entwickler Real Estate",
+        "date-doch": "Maggio 2023 - Maggio 2024",
         "description-rue": "Responsabile per la sostenibilità",
         "date-rue": "2021 - Aprile 2024",
         "description-kona": "Computational Designer",
         "date-kona": "Ottobre 2021 - Maggio 2022",
         "description-clal": "Computational Designer",
         "date-clal": "Ottobre 2021 - Maggio 2022",
+
 
     "_footer_section": "",
         "gru-tagline": "tutto secondo i piani.",
