@@ -1,5 +1,5 @@
 const defaultLocale = "de";
-const supportedLocales = ["de", "fr", "en"];
+const supportedLocales = ["de", "fr", "en","it"];
 
 let locale;
 
